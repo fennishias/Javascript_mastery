@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    background:hsl(36, 100%, 99%);
+    font-style: 'Inter';
+}
+.container{
+    width:80%;
+    max-width:1440px;
+    margin: 0 auto;
+   
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.nav-list{
+    display:flex;
+    gap:2rem;
+    list-style: none;
+    color:hsl(236, 13%, 42%);
+    font-weight: 400;
+
+
+}
+li,h4:hover{
+    color:hsl(5, 85%, 63%);
+    cursor: pointer;
+
+}
+.article img{
+    width: 100%;
+}
+.first{
+    display:flex;
+    justify-content: space-between;
+    gap:3rem;
+
+}
+.article-content{
+    display:flex;
+    justify-content: space-between;
+    margin:2rem 0;
+
+}
+.article-content h2{
+    width:35%;
+    font-size: 3.5rem;
+}
+.paragraph{
+    width:40%;
+    
+}
+.paragraph p , .aside-item p{
+    color:hsl(236, 13%, 42%);
+    font-size:15px;
+    margin-top: 1rem;
+
+
+}
+.paragraph button{
+    margin-top:2.7rem;
+    padding: 10px 25px;
+    border:none;
+    color:#ffff;
+    background: hsl(5, 85%, 63%);
+    
+
+}
+.paragraph button:hover{
+    background:hsl(240, 100%, 5%) ;
+    cursor: pointer;
+}
+.backgron {
+    width:100%;
+   
+
+}
+.aside h2{
+    background-color:hsl(240, 100%, 5%);
+    padding: 15px;
+    color:hsl(35, 77%, 62%);
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.aside-item{
+    background-color:hsl(240, 100%, 5%);
+    padding:20px 15px;
+}
+.aside h5{
+    background-color:hsl(240, 100%, 5%);
+    font-size:1.2rem ;
+    color:#ffff;
+}
+.aside p{
+    background-color:hsl(240, 100%, 5%);
+    font-weight: 800;
+}
+.cool{
+    border-bottom: 2px solid white;
+    margin-top:2px;
+}
+.third-part{
+    display:flex;
+    justify-content: space-between;
+}
+.third-part .items{
+    display:flex;
+
+}
+.item-p{
+    width:50%;
+}
+.items img{
+    height:60%;
+    margin-right: 2rem;
+}
+.items h2{
+    color:hsl(233, 8%, 79%);
+    font-size: 2rem;
+
+}
+.items h4{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin:0.6rem 0;
+}
+.items p{
+    color:hsl(236, 13%, 42%);
+    font-weight: 400;
+
+}
